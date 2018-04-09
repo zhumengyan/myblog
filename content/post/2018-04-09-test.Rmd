@@ -1,0 +1,11 @@
+---
+title: test
+author: Zhu mengyan
+date: '2018-04-09'
+slug: test
+categories:
+  - R
+tags: []
+---
+
+hello, my first blogdown file...
