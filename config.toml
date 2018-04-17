@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "A Hugo website"
+title = "My bioinformatics blog"
 theme = "hugo-lithium-theme"
 googleAnalytics = ""
 disqusShortname = ""
@@ -8,6 +8,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
+    
+[social]
+    github = "https://github.com/zhumengyan/myblog"
 
 [[menu.main]]
     name = "About"
@@ -21,7 +24,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [[menu.main]]
     name = "转录组"
-    url = "https://www.baidu.com"
+    url = "/transcriptome/"
 
 [params]
     description = "A website built through Hugo and blogdown."
